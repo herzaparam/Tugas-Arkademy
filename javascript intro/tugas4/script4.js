@@ -23,5 +23,5 @@ let newData = {
 console.log(data);
 console.log(newData);
 
-const {street, suite, city, zipcode} = newData.address 
+const {street, city} = newData.address 
 console.log(`${street} dan ${city}`);

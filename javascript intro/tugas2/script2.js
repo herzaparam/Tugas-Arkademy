@@ -4,7 +4,7 @@
     const bahasaInggris = 80
     const ipa = 80
 
-    if (mtk == 0 || bahasaIndonesia == 0 || bahasaInggris == 0 || ipa == 0){
+    if (mtk === 0 || bahasaIndonesia === 0 || bahasaInggris === 0 || ipa === 0){
         console.log('semua nilai harus diisi');
     }else{
         sum = mtk + bahasaIndonesia + bahasaInggris + ipa
